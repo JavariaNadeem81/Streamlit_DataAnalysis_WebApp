@@ -1,0 +1,24 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit config and secrets
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large data files (optional - if you want to keep them local only)
+*.csv
+*.xlsx
+!streamlit.ipynb

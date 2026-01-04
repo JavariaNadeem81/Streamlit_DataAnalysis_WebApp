@@ -145,3 +145,12 @@ if df is not None:
     )
 else:
     st.info("Please upload a file or choose a dataset to begin.")
+
+# --- SIDEBAR FEEDBACK SECTION ---
+st.sidebar.divider()
+st.sidebar.header("📩 Feedback & Suggestions")
+st.sidebar.write("Thank you for exploring this tool! 🌟 I would love to hear your thoughts.")
+st.sidebar.info("Please let me know if you found the app helpful or if there are any specific features or modifications you’d like to see. Your feedback helps me improve!")
+
+# Optional: Add a link to your LinkedIn for direct messages
+st.sidebar.markdown("[Contact me on LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE_HERE)")
